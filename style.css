@@ -1,0 +1,37 @@
+* {
+  background: black;
+}
+
+body {
+  border: 5px solid red;
+  font-family: sans-serif;
+}
+
+.title {
+  color: red;
+  text-align: center;
+  font-size: 50;
+  font-weight: bold;
+  margin: 50 auto;
+}
+
+#intro{
+    
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: auto 20;
+}
+
+.i1 {
+    font-size: 30px;
+    padding: 25px 25px;
+}
+.i2 {
+    font-size: 20px;
+    padding: 25px 25px;
+}
+.i3 {
+    font-size: 20px;
+    padding: 25px 25px;
+}
