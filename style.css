@@ -3,7 +3,6 @@
 }
 
 body {
-  border: 5px solid white;
   font-family: sans-serif;
 }
 
@@ -23,10 +22,9 @@ body {
   list-style-type: none;
   align-items: center;
   overflow:hidden;
-  background-color: #666;
   padding: 0;
   margin: 0;
-  border-bottom: 5px solid white;
+   
 }
 li{
   float:left
@@ -39,6 +37,8 @@ li a {
   text-align: center;
   text-decoration: none;
   position: relative;
+  margin-left: 10px;
+  border-radius: 15px 15px 15px 15px
 
 }
 li a:hover{
