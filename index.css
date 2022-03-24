@@ -41,3 +41,29 @@
     background-color: #848efc;
   }
   
+
+  
+/* footer*/
+.footer {
+  display: flex;
+  width: 100%;
+  bottom: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.bt {
+  color: white;
+  background-color: black;
+  font-size: 20;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 15px 15px;
+  border: 2px solid rgb(39, 39, 39);
+}
+
+.bt:hover {
+  background-color: #666;
+  
+}

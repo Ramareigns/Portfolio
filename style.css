@@ -89,9 +89,12 @@ body {
   font-size: 20px;
   color: white;
   margin-left: 100px;
+  margin-bottom: 250px;
+  
 }
 .skill-description li{
   float: left;
   clear: left;   
   
 }
+
