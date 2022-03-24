@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     justify-content:center;
+    background-color: transparent;
      
   }
   li{
@@ -34,7 +35,7 @@
   
   }
   li a:hover{
-    background-color: #5865F2;
+    background-color: #6d78f7;
   }
   .active {
     background-color: #848efc;

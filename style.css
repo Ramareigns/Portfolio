@@ -47,7 +47,7 @@ body {
   color: white;
   font-size: 30px;
   margin-right: 100px;
-  margin-top: 50px;
+  margin-top: 235px;
   
 }
 .job1 {
@@ -64,11 +64,34 @@ body {
 .job-description {
   list-style-type: square;
   text-align:right; 
+  margin-bottom: 10px;
   
 }
 .job-description li{
   padding-right: 50px;
   float: right;
   clear: right;   
+  
+}
+
+/*skills*/
+.skl {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  margin-left: 125px;
+  margin-top: 250px;
+  
+}
+.skill-description {
+  list-style-type: square;
+  text-align:left; 
+  font-size: 20px;
+  color: white;
+  margin-left: 100px;
+}
+.skill-description li{
+  float: left;
+  clear: left;   
   
 }
