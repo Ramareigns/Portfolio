@@ -1,0 +1,42 @@
+* {
+    background: #5865F2;
+  }
+
+  /*This is the navigation bar*/
+.nav-links {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+    overflow:hidden;
+    padding: 0;
+    margin: 0;
+    justify-content:center;
+     
+  }
+  li{
+    float:left;
+  }
+  li a {
+    display: block;
+    padding: 14px 16px;
+    background-color: #666;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid rgb(39, 39, 39);
+    
+  
+  }
+  li a:hover{
+    background-color: #5865F2;
+  }
+  .active {
+    background-color: #848efc;
+  }
+  
