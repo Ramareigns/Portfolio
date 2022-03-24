@@ -19,6 +19,7 @@
   }
   li{
     float:left;
+    background: transparent;
   }
   li a {
     display: block;
