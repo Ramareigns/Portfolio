@@ -20,14 +20,15 @@ body {
 #intro{
     
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: left;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 200px;
 
 }
 .i1 {
     font-size: 30px;
+    font-weight: bold;
     padding: 5px 25px;
 }
 .i2 {
@@ -45,8 +46,9 @@ body {
   text-align: right;
   color: white;
   font-size: 30px;
-  margin-right: 50px;
+  margin-right: 100px;
   margin-top: 50px;
+  
 }
 .job1 {
   font-size: 20px;
@@ -54,9 +56,19 @@ body {
   text-align: right;
   margin-right: 50px;
   margin-top: 10px;
+  
 }
-
-.job1 li {
-  align-items: right;
-  justify-content: right;
+.job {
+  margin-right: 50px;
+}
+.job-description {
+  list-style-type: square;
+  text-align:right; 
+  
+}
+.job-description li{
+  padding-right: 50px;
+  float: right;
+  clear: right;   
+  
 }
