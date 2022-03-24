@@ -4,6 +4,7 @@ body {
   width:  100%;
   height: 100%;
   margin: 0;
+  background: #5865F2;
 
 }
 
@@ -42,19 +43,20 @@ body {
 
 /*Work Experience*/
 #work{
-  
+  background:white;
 }
 .wexp{
   text-align: right;
-  color: white;
+  color: black;
   font-size: 30px;
   margin-right: 100px;
-  margin-top: 235px;
+  margin-top: 200px;
+  padding-top : 50px;
   
 }
 .job1 {
   font-size: 20px;
-  color: white;
+  color: black;
   text-align: right;
   margin-right: 50px;
   margin-top: 10px;
@@ -82,7 +84,8 @@ body {
   color: white;
   text-align: left;
   margin-left: 125px;
-  margin-top: 250px;
+  margin-top: 200px;
+  padding-top : 50px;
   
 }
 .skill-description {
