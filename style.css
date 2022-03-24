@@ -10,9 +10,9 @@ body {
 .title {
   color: grey;
   text-align: center;
-  -webkit-text-stroke: 2px black;
-  font-size: 100;
-  font-weight: bold;
+  -webkit-text-stroke: 10px black;
+  font-size: 200;
+  font-weight: 1000;
   margin: 150 auto;
 }
 
