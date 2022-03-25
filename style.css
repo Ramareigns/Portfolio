@@ -12,7 +12,7 @@ body {
   color: grey;
   text-align: center;
   -webkit-text-stroke: 10px black;
-  font-size: 200;
+  font-size: 15vw;
   font-weight: 1000;
   margin: 150 auto;
 }
@@ -24,20 +24,20 @@ body {
     /* font-weight: bold; */
     text-align: left;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 100px;
 
 }
 .i1 {
-    font-size: 30px;
+    font-size: 4vw;
     font-weight: bold;
     padding: 5px 25px;
 }
 .i2 {
-    font-size: 20px;
+    font-size: 2vw;
     padding: 5px 25px;
 }
 .i3 {
-    font-size: 20px;
+    font-size: 2vw;
     padding: 15px 25px;
 }
 
@@ -49,14 +49,15 @@ body {
 .wexp{
   text-align: right;
   color: black;
-  font-size: 30px;
+  font-size: 3vw;
+  font-weight: bold;
   margin-right: 100px;
   margin-top: 200px;
   padding-top : 50px;
   
 }
 .job1 {
-  font-size: 20px;
+  font-size: 2vw;
   color: black;
   text-align: right;
   margin-right: 50px;
@@ -67,40 +68,46 @@ body {
   margin-right: 50px;
 }
 .job-description {
-  list-style-type: square;
+  list-style-type: none;
   text-align:right; 
   margin-bottom: 10px;
-  
+  font-size: 2vw;
+  padding-bottom: 50px;
+  padding-right: 50px;
 }
 .job-description li{
   padding-right: 50px;
   float: right;
-  clear: right;   
+  clear: right;
+  font-size: 3vw;   
   
 }
 
 /*skills*/
 .skl {
-  font-size: 30px;
+  font-size: 3vw;
   color: white;
   text-align: left;
-  margin-left: 125px;
+  margin-left: 120px;
   margin-top: 100px;
   padding-top : 50px;
+  
   
 }
 .skill-description {
   list-style-type: square;
   text-align:left; 
-  font-size: 20px;
+  font-size: 2vw;
   color: white;
   margin-left: 100px;
   margin-bottom: 250px;
+  padding-bottom: 50px;;
   
 }
 .skill-description li{
   float: left;
-  clear: left;   
+  clear: left;
+  font-size: 3vw;   
   
 }
 

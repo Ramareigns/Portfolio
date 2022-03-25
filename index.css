@@ -7,7 +7,7 @@
     display: flex;
     position: fixed;
     top: 20px;
-    width: 100%;
+    width: 100vw;
     list-style-type: none;
     align-items: center;
     overflow:hidden;
@@ -30,8 +30,9 @@
     text-decoration: none;
     position: relative;
     margin-left: 10px;
-    border-radius: 10px ;
+    border-radius: 1vw ;
     border: 5px solid rgb(0, 0, 0);
+    font-size:1vw;
     
   
   }
@@ -57,11 +58,11 @@
 .bt {
   color: white;
   background-color: black;
-  font-size: 20;
+  font-size: 2vw;
   justify-content: center;
   padding: 8px;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: 1vw;
   border: 2px solid rgb(39, 39, 39);
 }
 
