@@ -76,10 +76,10 @@ body {
   padding-right: 50px;
 }
 .job-description li{
-  padding-right: 50px;
+  padding-right: 0px;
   float: right;
   clear: right;
-  font-size: 3vw;   
+  font-size: 2vw;   
   
 }
 
@@ -107,7 +107,42 @@ body {
 .skill-description li{
   float: left;
   clear: left;
-  font-size: 3vw;   
+  font-size: 2vw;   
   
 }
+
+/* Projects */
+#proj{
+  background:white;
+  padding-bottom: 250px;
+}
+.prj{
+  text-align: right;
+  color: black;
+  font-size: 3vw;
+  font-weight: bold;
+  padding-right: 100px;
+  padding-top : 150px;
+  
+}
+.prj1 {
+  font-size: 2vw;
+  color: black;
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 0;
+  padding-left: 300px;
+  
+}
+.project {
+  
+}
+.project-description {
+  
+  text-align:right; 
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+  
+}
+
 

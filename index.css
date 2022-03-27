@@ -32,7 +32,7 @@
     margin-left: 10px;
     border-radius: 1vw ;
     border: 5px solid rgb(0, 0, 0);
-    font-size:1vw;
+    font-size:2vw;
     
   
   }
@@ -48,9 +48,11 @@
 /* footer*/
 .footer {
   display: flex;
+  /*position: fixed;*/
   width: 100%;
   bottom: 15px;
-  margin-bottom: 20px;
+  padding-top: 50px ;
+  padding-bottom: 20px;
   justify-content: center;
   background-color: transparent;
 }
