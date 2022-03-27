@@ -52,23 +52,88 @@
   width: 100%;
   bottom: 15px;
   padding-top: 50px ;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   justify-content: center;
+  position: relative;
   background-color: transparent;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.footer-content{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.bt {
+.footH {
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 10px;
+   
+   
+}
+.mail {
+  font-size: 2vw;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.footLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.G {
   color: white;
   background-color: black;
   font-size: 2vw;
-  justify-content: center;
   padding: 8px;
   margin-bottom: 20px;
+  margin-left: 10px;
   border-radius: 1vw;
   border: 2px solid rgb(39, 39, 39);
 }
 
-.bt:hover {
+.G:hover {
   background-color: #666;
   
 }
+.L {
+  color: white;
+  background-color: black;
+  font-size: 2vw;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 1vw;
+  border: 2px solid rgb(39, 39, 39);
+}
+
+.L:hover {
+  background-color: #666;
+  
+}
+.T {
+  color: white;
+  background-color: black;
+  font-size: 2vw;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 1vw;
+  border: 2px solid rgb(39, 39, 39);
+}
+
+.T:hover {
+  background-color: #666;
+  
+}
+.footCR {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
