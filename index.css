@@ -1,5 +1,5 @@
 * {
-    
+    scroll-behavior: smooth;
   }
 
   /*This is the navigation bar*/
@@ -41,6 +41,30 @@
   }
   .active {
     background-color: #848efc;
+  }
+
+  /* this is the scroll bar*/
+  .scroll-top {
+    position: absolute; 
+    top: 120vh; 
+    bottom: 3rem; 
+    right: 2rem;
+    font-size: 2vw;
+    font-weight: bold;
+    
+    }  
+  .scroll-top__link {
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 90vh; 
+    color: white;
+    background-color: black;
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 1vw;
+    border: 2px solid rgb(39, 39, 39);
+    
   }
   
 
