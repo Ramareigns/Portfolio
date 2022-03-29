@@ -62,9 +62,12 @@
     padding: 8px;
     margin-bottom: 20px;
     margin-left: 10px;
-    border-radius: 1vw;
+    border-radius: 0.5vw;
     border: 2px solid rgb(39, 39, 39);
     
+  }
+  .scroll-top__link a:hover{
+    background-color: #6d78f7;
   }
   
 
