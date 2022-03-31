@@ -1,12 +1,17 @@
 @import "index.css";
-body {
-  font-family: sans-serif;
-  width:  100%;
-  height: 100%;
-  margin: 0;
-  background: #5865F2;
 
-}
+
+
+  body {
+    font-family: sans-serif;
+    
+    width:  100%;
+    height: 100%;
+    margin: 0;
+    background: #5865F2;
+  
+  }  
+
 
 main{
   position: relative;
@@ -18,7 +23,9 @@ main{
   -webkit-text-stroke: 10px black;
   font-size: 15vw;
   font-weight: 1000;
-  margin: 150 auto;
+  margin: 50% auto;
+  width:100%;
+  
 }
 
 /*This is the intro*/
@@ -34,17 +41,17 @@ main{
 }
 .i1 {
     
-    font-size: 4vw;
+    
     font-weight: bold;
     padding-top: 100px;
     padding-left: 25px;
 }
 .i2 {
-    font-size: 2vw;
+   
     padding: 5px 25px;
 }
 .i3 {
-    font-size: 2vw;
+    
     padding: 15px 25px;
 }
 
@@ -56,7 +63,6 @@ main{
 .wexp{
   text-align: right;
   color: black;
-  font-size: 3vw;
   font-weight: bold;
   margin-right: 100px;
   margin-top: 200px;
@@ -64,7 +70,6 @@ main{
   
 }
 .job1 {
-  font-size: 2vw;
   color: black;
   text-align: right;
   margin-right: 50px;
@@ -78,21 +83,18 @@ main{
   list-style-type: none;
   text-align:right; 
   margin-bottom: 10px;
-  font-size: 2vw;
   padding-bottom: 100px;
   padding-right: 50px;
 }
 .job-description li{
   padding-right: 0px;
   float: right;
-  clear: right;
-  font-size: 2vw;   
+  clear: right;  
   
 }
 
 /*skills*/
 .skl {
-  font-size: 3vw;
   color: white;
   text-align: left;
   margin-left: 140px;
@@ -103,7 +105,6 @@ main{
 .skill-description {
   list-style-type: square;
   text-align:left; 
-  font-size: 2vw;
   color: white;
   margin-left: 100px;
   margin-bottom: 250px;
@@ -112,8 +113,7 @@ main{
 }
 .skill-description li{
   float: left;
-  clear: left;
-  font-size: 2vw;   
+  clear: left;   
   
 }
 
@@ -125,14 +125,12 @@ main{
 .prj{
   text-align: right;
   color: black;
-  font-size: 3vw;
   font-weight: bold;
   padding-right: 100px;
   padding-top : 150px;
   
 }
 .prj1 {
-  font-size: 2vw;
   color: black;
   text-align: right;
   margin-right: 100px;
@@ -150,5 +148,27 @@ main{
   padding-bottom: 50px;
   
 }
+
+
+/* Media Query values*/
+
+@media (min-width: 600px){
+  .title {
+    font-size:250px;
+  }
+  #intro {
+    font-size:30px;
+  }
+  #work{
+    font-size:30px;
+  }
+  #skills {
+    font-size:30px;
+  }
+  #proj {
+    font-size:30px;
+  }
+}
+
 
 
