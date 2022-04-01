@@ -32,7 +32,6 @@
     margin-left: 10px;
     border-radius: 1vw ;
     border: 5px solid rgb(0, 0, 0);
-    font-size:2vw;
     
   
   }
@@ -49,7 +48,6 @@
     top: 120vh; 
     bottom: 3rem; 
     right: 2rem;
-    font-size: 2vw;
     font-weight: bold;
     
     }  
