@@ -78,14 +78,12 @@
   bottom: 15px;
   padding-top: 10px ;
   padding-bottom: 50px;
-  justify-content: center;
-  position: relative;
   background-color: transparent;
-  align-items: center;
+  
   
 }
 .footer-content{
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 

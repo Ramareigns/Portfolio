@@ -9,6 +9,7 @@
     height: 100%;
     margin: 0;
     background: #5865F2;
+    
   
   }  
 
@@ -27,6 +28,7 @@ main{
   background: #717dfa;
   animation: fadeIn; 
   animation-duration: 3s;
+  border-radius:400px;
  
   
   
@@ -40,7 +42,8 @@ main{
     text-align: left;
     margin-left:50px;
     margin-right: 50px;
-    background: #717dfa;   
+    background: #717dfa; 
+    border-radius:40px;  
 
 }
 .i1 {
@@ -63,7 +66,7 @@ main{
 /*Work Experience*/
 #work{
   background:white;
-  
+  border-radius:40px;  
   margin: 100px 50px ;
   padding: 250px 50px;
   
@@ -104,6 +107,7 @@ main{
   margin: 100px 50px ;
   padding: 250px 50px;
   background: #717dfa;
+  border-radius:40px;
 }
 .skl {
   color: white;
@@ -125,30 +129,66 @@ main{
 /* Projects */
 #proj{
   background:white;
-  margin: 100px 50px ;
-  padding: 250px 50px;
+  border-radius:40px;
+  margin: 50px 50px ;
+  padding: 100px  50px;
   
 }
 .prj{
   text-align: right;
   color: black;
   font-weight: bold;
+  margin-right: 100px;
   
   
+}
+.full-prj1{
+  margin:100px 0px;
+  display:flex;
+  justify-content: center;
 }
 .prj1 {
+  color: black; 
+  margin: 80px 100px
+  
+  
+}
+.prj1Name {
+  text-align: left;
+}
+.prj1-description {
+  
+  text-align:left;
+   
+}
+.prj1-pic{
+  margin:0 50px;
+  
+}
+.prj1-picture{
+  width:600px;
+  height:350px;
+  float: right;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.prj2 {
   color: black;
   text-align: right;
+  margin-top: 80px ;
+  margin-bottom: 80px;
+  margin-left: 500px;
+  margin-right: 50px;
   
   
 }
-.project {
+.prj2Name {
   
 }
-.project-description {
+.prj2-description {
   
-  text-align:right; 
-  
+  text-align:right;   
   
 }
 
