@@ -108,22 +108,20 @@ main{
   padding: 250px 50px;
   background: #717dfa;
   border-radius:40px;
+  
 }
 .skl {
   color: white;
-   
   
 }
 .skill-description {
   list-style-type: square; 
-  color: white;
-  
+  color: white; 
   
 }
 .skill-description li{
   float: left;
-  clear: left;   
-  
+  clear: left;  
 }
 
 /* Projects */
@@ -164,6 +162,7 @@ main{
 .prj1-pic{
   margin:50px 50px;
   
+  
 }
 .prj1-picture{
   width:600px;
@@ -182,6 +181,7 @@ main{
   margin-right: 50px;
   
   
+  
 }
 .prj2Name {
   
@@ -195,7 +195,7 @@ main{
 
 /* Media Query values*/
 
-@media (min-width: 600px){
+@media (min-width: 300px){
   .title {
     font-size:150px;
   }
@@ -212,10 +212,31 @@ main{
     font-size:20px;
   }
   .skill-description li{
-    font-size:20px;
+    font-size: 20px;
   }
   #proj {
     font-size:20px;
+  }
+  .full-prj1{
+    flex-wrap: nowrap;
+  }
+  .prj2{
+    
+  }
+
+  @media (max-width:1000px){
+    .skill-description li{
+      font-size: 35px;
+    }
+    .job-description li{
+      font-size:35px;
+    }
+    .full-prj1{
+      flex-wrap: wrap;
+    }
+    
+    
+    
   }
 }
 
