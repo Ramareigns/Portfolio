@@ -155,10 +155,11 @@ main{
   
 }
 .prj{
-  text-align: right;
+  text-align:center;
   color: black;
   font-weight: bold;
   margin-right: 100px;
+  
   
   
 }
@@ -169,7 +170,8 @@ main{
 }
 .prj1 {
   color: black; 
-  margin: 50px 80px
+  margin: 50px 80px;
+  
   
   
 }
@@ -198,6 +200,8 @@ main{
   color: black;
   text-align: right;
   margin: 50px 80px; 
+  
+  
   
 }
 .prj2Name {
@@ -233,6 +237,9 @@ main{
   }
   #proj {
     font-size:20px;
+  }
+  p {
+    font-size: 20px;
   }
   .full-prj1{
     flex-wrap: nowrap;
