@@ -71,8 +71,8 @@ main{
 }
 
 .p-pic {
-  width:300px;
-  height:400px;
+  max-width:300px;
+  max-height:600px;
   border-radius: 100px;
   margin: 50px auto;
   float: right;
@@ -200,8 +200,8 @@ img {
   
 }
 .prj1-picture{
-  width:600px;
-  height:350px;
+  max-width:600px;
+  max-height:350px;
   float: right;
   border-radius: 10px;
   cursor: pointer;
