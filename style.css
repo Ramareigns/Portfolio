@@ -4,13 +4,10 @@
 
   body {
     font-family: sans-serif;
-    
     width:  100%;
     height: 100%;
     margin: 0;
-    background: #5865F2;
-    
-  
+    background: #5865F2; 
   }  
 
 
@@ -18,20 +15,40 @@ main{
   position: relative;
 }
 
-.title {
-  color: grey;
-  text-align: center;
-  -webkit-text-stroke: 10px black;
-  font-weight: 1000;
-  margin: 100px 50px ;
-  padding: 250px 50px;
+.heading{
   background: #717dfa;
   animation: fadeIn; 
   animation-duration: 3s;
   border-radius:400px;
- 
+  margin: 100px 50px ;
+  padding: 50px 50px;
+  display:flex;
+}
+.t1{
+  color: grey;
+  text-align: center;
+  -webkit-text-stroke: 8px black;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:100%;
   
-  
+}
+.title{
+  font-size: 13; 
+}
+.bot-pic{
+  padding-right: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.bot-picture{
+  max-width:500px;
+  max-height:400px;
+  border-radius: 100px;
+  margin: 50px 0px;
+  float:center;
 }
 
 /*This is the intro*/
