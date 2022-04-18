@@ -49,8 +49,8 @@
   .scroll-top {
     position: fixed;
     font-weight: bold;
-    bottom:70px;
-    right:160px; 
+    bottom:100px;
+    right:180px; 
     
     }  
   .scroll-top__link {
