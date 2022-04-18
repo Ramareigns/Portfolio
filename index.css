@@ -49,8 +49,7 @@
   .scroll-top {
     position: fixed;
     font-weight: bold;
-    bottom:100px;
-    right:180px; 
+    
     
     }  
   .scroll-top__link {
@@ -161,14 +160,31 @@
   padding-bottom: 10px;
 }
 
-@media (min-width: 600px){
+@media (min-width: 300px){
   .nav-links {
     font-size:20px;
   }
   .scroll-top__link {
     font-size:20px;
   }
+  .scroll-top {
+   
+    bottom: 100px;
+    right: 180px;
+    
+  }
   .footer{
     font-size:20px;
+  }
+  @media (max-width:1000px){
+    .scroll-top__link {
+      font-size:30px;
+    }
+    .scroll-top {
+      
+      bottom:150px;
+      right: 240px;
+      
+    }
   }
 }
