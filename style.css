@@ -17,8 +17,8 @@ main{
 
 .heading{
   background: #717dfa;
-  animation: fadeIn; 
-  animation-duration: 3s;
+  /*animation: fadeIn; 
+  animation-duration: 3s;*/
   border-radius:400px;
   margin: 100px 50px ;
   padding: 50px 50px;
