@@ -107,7 +107,7 @@ main{
   
 }
 .wexp{
-  text-align: right;
+  text-align: center;
   color: black;
   font-weight: bold;
   margin-right: 100px;
@@ -121,19 +121,41 @@ main{
   margin-top: 10px;
   
 }
-.job {
+.job1-name {
   margin-right: 50px;
 }
-.job-description {
+.job1-description {
   list-style-type: none;
   text-align:right; 
   margin-bottom: 10px;
   padding-right: 50px;
 }
-.job-description li{
+.job1-description li{
   padding-right: 0px;
   float: right;
   clear: right;  
+  
+}
+.job2 {
+  color: black;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  
+}
+.job2-name {
+  margin-left: 50px;
+}
+.job2-description {
+  list-style-type: none;
+  text-align:left; 
+  margin-bottom: 10px;
+  padding-left: 50px;
+}
+.job2-description li{
+  padding-left: 0px;
+  float: left;
+  clear: left;  
   
 }
 
