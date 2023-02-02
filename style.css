@@ -210,6 +210,7 @@ main{
 }
 
 .skl {
+  
   color: white;
   text-align: center;
   margin:20px 100px;
@@ -224,7 +225,7 @@ main{
   justify-content: center;
   font-weight: bold;
   display:grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px;
   grid-gap: 100px;
   
 }

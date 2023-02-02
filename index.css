@@ -6,6 +6,11 @@
     
   }
   /*This is the navigation bar*/
+.navbar{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
 .nav-links {
     display: flex;
     position: fixed;
