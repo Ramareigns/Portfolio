@@ -158,6 +158,28 @@ main{
   clear: left;  
   
 }
+.job3 {
+  color: black;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 10px;
+  
+}
+.job3-name {
+  margin-right: 50px;
+}
+.job3-description {
+  list-style-type: none;
+  text-align:right; 
+  margin-bottom: 10px;
+  padding-right: 50px;
+}
+.job3-description li{
+  padding-right: 0px;
+  float: right;
+  clear: right;  
+  
+}
 
 /*skills*/
 #skills{
