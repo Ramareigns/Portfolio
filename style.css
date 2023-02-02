@@ -29,9 +29,9 @@ main{
   margin: 100px 50px ;
   padding: 50px 50px;
   display:flex;
-  border: 15px solid black;
+  border: 5px solid black;
   border-radius: 50px;
-  height:75%;
+  height:50%;
 }
 .t1{
   color: grey;
@@ -75,7 +75,7 @@ main{
     
   }
   .intr{
-    border: 15px solid black;
+    border: 5px solid black;
     border-radius: 50px;
   }
 
